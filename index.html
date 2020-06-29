@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>🍿 Movie App 🍿</h1>
-    <h2 id="movie-name">Movie name goes here!</h2>
-    <img src='' alt="image goes here" id="movie-image" />
-    <section>
-        <p>Upvotes: <span id="movie-upvotes">0</span></p>
-        <button id="upvote">Upvote 👍</button>
-    </section>  
-    <h4>Reviews</h4>
-    <ul id="movie-reviews">
-        Reviews go here
-    </ul>
 
-    <script src="app.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>🍿 Movie App 🍿</h1>
+  <h2 id="movie-name">Movie name goes here!</h2>
+  <img src='' alt="image goes here" id="movie-image" />
+  <section>
+    <p>Upvotes: <span id="movie-upvotes">0</span></p>
+    <button id="upvote">Upvote 👍</button>
+  </section>
+  <h4>Reviews</h4>
+  <form>
+    <label for="review-content">New Review:</label>
+    <input id="review-content" type="text" name="content">
+    <input type="submit">
+  </form>
+  </form>
+  <ul id="movie-reviews">
+    Reviews go here
+  </ul>
+
+  <script src="app.js"></script>
 </body>
+
 </html>
